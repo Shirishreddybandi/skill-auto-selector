@@ -26,10 +26,7 @@ This Chrome extension automates the skill entry process by:
 
 ### From Source Code
 
-1. Clone this repository:  
-git clone https://github.com/Shirishreddybandi/skill-auto-selector.git
-
-text
+1. Clone this repository:  git clone https://github.com/Shirishreddybandi/skill-auto-selector.git
 2. Open Chrome and navigate to `chrome://extensions/`  
 3. Enable “Developer mode” by toggling the switch in the top right corner  
 4. Click “Load unpacked” and select the cloned repository folder  
@@ -56,15 +53,13 @@ The extension uses DOM manipulation to interact with Workday’s skill input fie
 - Uses content scripts to interact with the web page  
 
 ## File Structure
-
+```
 skill-auto-selector/
 ├── manifest.json # Extension configuration
 ├── popup.html # Extension popup interface
 ├── popup.js # Popup functionality
 ├── content.js # Main automation logic
-
-text
-
+```
 ## Customization
 
 To customize the skills list:  
@@ -81,8 +76,6 @@ const skills = [
 "SQL",
 // Add your skills here
 ];
-
-text
 
 ## Browser Compatibility
 
