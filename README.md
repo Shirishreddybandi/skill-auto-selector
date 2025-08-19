@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # Skill Auto Selector Chrome Extension
 
 A Chrome extension that automates the tedious process of entering skills in Workday job application portals, saving valuable time during the job application process.
@@ -68,6 +70,7 @@ To customize the skills list:
 3. Reload the extension in Chrome  
 
 Example:
+```javascript
 const skills = [
 "JavaScript",
 "Python",
@@ -76,6 +79,7 @@ const skills = [
 "SQL",
 // Add your skills here
 ];
+```
 
 ## Browser Compatibility
 
@@ -114,7 +118,7 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 
 If you encounter any issues or have questions:  
 - Open an issue on GitHub  
-- Contact: [Your Email]
+- Contact: shirishreddybandi@gmail.com
 
 ## Acknowledgments
 
@@ -122,6 +126,5 @@ If you encounter any issues or have questions:
 - Built for students and job seekers in the software industry  
 - Thanks to the Chrome extension development community for resources and documentation
 
----
 
-**Made with ❤️ for job seekers everywhere**
+#### **Made with ❤️ for job seekers everywhere**
